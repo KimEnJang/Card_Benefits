@@ -1,0 +1,680 @@
+[
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "기본 혜택",
+    "content": "전월 50만원 이상 이용 시 국내외 가맹점에서 1% M포인트 적립. 적립 한도 없음. 신규 발급 시 다음 달까지 실적 조건 없이 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "추가 혜택",
+    "content": "전월 100만원 이상 시 사업성 경비 영역(캐시노트, 대형마트, 전기요금, 통신비, 광고비 등)에서 5% M포인트 적립. 월 최대 2.5만 포인트 한도. 국내 가맹점 한정."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "우대 서비스 - 캐시노트플러스 멤버십",
+    "content": "정기결제 등록 시 매월 최대 3만 3천 M포인트 사용 가능. 캐시노트 자체 서비스 이용 시 적용."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "우대 서비스 - 카드매출 바로입금 할인 쿠폰",
+    "content": "전월 30만원 이상 사용 시 월 1매 할인 쿠폰 제공. 캐시노트 앱 내 수수료 결제 시 사용 가능."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "우대 서비스 - M 긴급적립",
+    "content": "최대 50만 M포인트 선지급. 24개월간 상환. 앱에서 신청 가능하며 적립 포인트로 자동 상환."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "연회비",
+    "content": "국내전용 및 해외겸용 연회비는 30,000원(기본 10,000원 + 제휴 20,000원). 가족카드 연회비는 10,000원."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "캐시노트 Business",
+    "title": "M포인트 사용 안내",
+    "content": "일상 사용처, M몰, 자동차 구매 등에 1 M포인트 = 1원으로 사용 가능. 교환 시 2/3원으로 환산. 제휴 마일리지 교환 등도 가능."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Infinite",
+    "title": "호텔 혜택",
+    "content": "전 세계 900여 개 럭셔리 호텔 콜렉션 무료 업그레이드, 조식 2인 무료, 식음료 크레딧 $25 제공. 국내 특급호텔 및 부티크 호텔 최대 60% 할인, 스파 및 로비 라운지 할인, 온라인 호텔 예약 플랫폼 최대 20% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Infinite",
+    "title": "여행 혜택",
+    "content": "해외 렌터카 할인(Hertz, AVIS, 렌탈카스닷컴), MOVV 이동 서비스, 공항 픽업 및 짐 운송 서비스 할인. 교통약자 짐 서비스는 최대 50% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Infinite",
+    "title": "공항 서비스",
+    "content": "공항 의전 서비스(yQ) 25% 할인, 진에어 빠른 체크인 및 수화물 우선 서비스 연 4회 제공, 카타르항공 최대 10% 할인, 일본항공 일본행 항공권 8% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Infinite",
+    "title": "쇼핑 혜택",
+    "content": "신세계면세점 골드 멤버십 및 현대면세점 블랙 멤버십 무료 제공. 최대 20% 면세 할인 및 인도장 우선 수령 혜택."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Infinite",
+    "title": "생활 혜택",
+    "content": "Visa 프리미엄 컨시어지 서비스, 미슐랭 레스토랑 와인 무료, 트립쿠폰 멤버십, 곤트란 쉐리에 커피 할인, 하와이 골프장 그린피 15% 할인 등 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Infinite",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드에 한해 제공되며 전월 실적 조건 없음. 카드 개별 서비스와 Visa Infinite 서비스가 다를 경우 카드 서비스가 우선 적용됨."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Signature",
+    "title": "호텔 혜택",
+    "content": "전 세계 900여 개 럭셔리 호텔 콜렉션에서 객실 업그레이드, 조식 2인 무료, $25 식음료 크레딧 제공. 국내 특급호텔 F&B 최대 20% 할인, 객실 최대 60% 할인 또는 업그레이드, 부티크 호텔 및 라운지 5~50% 할인. 호텔스닷컴, 부킹닷컴, 아고다, 익스피디아, IHG, 아코르 등에서 온라인 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Signature",
+    "title": "여행 혜택",
+    "content": "해외 렌터카(Hertz, AVIS, 렌탈카스닷컴) 최대 35% 할인, MOVV 이동 서비스 국내외 할인, TBR 공항 픽업 15% 할인, 굿럭 짐 보관 및 배송 서비스 최대 50% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Signature",
+    "title": "공항 서비스",
+    "content": "공항 의전 서비스(yQ Meet & Assist) 20% 할인, 진에어 빠른 체크인 및 수화물 우선 서비스 연 4회, 카타르항공 최대 10% 할인, 일본항공 일본행 항공권 5% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Signature",
+    "title": "쇼핑 혜택",
+    "content": "신세계면세점 및 현대면세점 골드 멤버십 무료 제공. 최대 15% 면세 할인 혜택 포함."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Signature",
+    "title": "생활 혜택",
+    "content": "Visa 프리미엄 컨시어지 서비스(080-4840-880), 아시아 11개국 미슐랭 레스토랑 와인 무료, 트립쿠폰 괌 멤버십, 곤트란 쉐리에 커피 할인, 하와이 골프장 그린피 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Signature",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드에 한해 제공되며, 전월 실적 조건 없이 브랜드사(Visa)에서 제공. 카드 고유 서비스와 중복 시 카드 서비스가 우선 적용됨."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Platinum",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 F&B 5~20% 할인, 객실 및 패키지 5~60% 할인 또는 업그레이드, 부티크 호텔 숙박 및 F&B 5~50% 할인, 로비 라운지 5~15% 할인. 호텔스닷컴, 부킹닷컴, 아고다, 익스피디아, IHG, 아코르 차이나 등에서 온라인 예약 시 최대 20% 할인 또는 캐시백 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Platinum",
+    "title": "여행 혜택",
+    "content": "해외 렌터카(Hertz 10% 기본 할인, AVIS 최대 20%, 렌탈카스닷컴 10%) 및 MOVV 이동 서비스(국내 1.5~3.5만원, 해외 8%), TBR 공항 픽업 10%, 굿럭 캐리어 운송 및 짐 보관 10% 할인, 교통약자 짐 배송(장애인 50%, 기타 10%) 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Platinum",
+    "title": "공항 서비스",
+    "content": "공항 의전 서비스(yQ) 15% 할인, 카타르항공 최대 10% 할인, 일본항공 일본행 항공권 8% 할인(2025.3.31까지)."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Platinum",
+    "title": "쇼핑 혜택",
+    "content": "신세계면세점 및 현대면세점 골드 멤버십 무료 제공 (최대 15% 할인)."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Platinum",
+    "title": "생활 혜택",
+    "content": "곤트란 쉐리에 아메리카노 50~100% 할인, 하와이 올로마나 골프장 15% 할인 및 연습볼 1통 무료, 트립쿠폰 괌 멤버십 무료 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Platinum",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드에 한해 제공되며, 전월 실적 조건 없음. Visa Platinum 서비스와 카드별 서비스가 상이할 경우 카드 서비스가 우선 적용됨. 자세한 사항은 Visa 홈페이지 참조."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 F&B 5~15% 할인, 객실 5~50% 할인 또는 업그레이드, 스파 5~20% 할인. 온라인 전용 Capella Hotels 조식 및 혜택, Trump Hotels 10% 할인 또는 $50 크레딧, Outrigger Hotels 5%, The Hari Hong Kong 20% 할인, 스테이폴리오 3% 할인 등."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "여행 혜택",
+    "content": "제주도닷컴(패키지 5%, 단품 3%, 렌터카 10%, 항공권 수수료 50%) 할인. 케이케이데이, 트립닷컴, 라쿠텐트래블, 부킹닷컴, 온베케이션, 짐캐리, AVIS렌터카, 유럽카, 뉴욕 오쇼, 롯데렌터카, 와이드모바일, 아고다, Airalo eSIM 등 다양한 온라인 여행 플랫폼 할인 및 캐시백 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "공항 서비스",
+    "content": "K-VAN 공항 밴 서비스(인천 10%, 김포 5%), LANE4 공항 이동 서비스 10% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "쇼핑 혜택",
+    "content": "신라면세점(15~20%), 신세계면세점(최대 15%), 트래블메이트, 쁘렝땅 백화점, 몽쥬약국, 파페치, 육스 등에서 면세 할인, 포인트 제공, 보험, VIP 서비스 및 정기 배송 혜택 포함."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "골프 혜택",
+    "content": "전 세계 약 48개 골프장 그린피 50% 할인, LANE4 골프장 이동 서비스 10% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "생활 혜택",
+    "content": "내셔널지오그래픽 매거진 구독료 20% 할인, 카업 자동차 케어 20% 할인, W Horseland 승마 레슨 및 정기권 15% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard Diamond",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드 회원에 한해 제공. Mastercard 브랜드에서 전월 실적 조건 없이 제공. 카드 고유 혜택과 중복 시 카드 서비스가 우선 적용. 자세한 내용은 Mastercard 공식 홈페이지 참고."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 F&B 최대 15% 할인, 객실 최대 50% 할인 또는 업그레이드, 스파 최대 20% 할인. Trump Hotels, Outrigger Hotels, Hari Hong Kong 등 글로벌 호텔 할인 및 혜택 포함. Capella Hotels 조식 제공, 스테이폴리오·HoteLux Elite 멤버십 등 온라인 호텔 서비스 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "여행 혜택",
+    "content": "제주도닷컴, 케이케이데이, 트립닷컴, 부킹닷컴, 라쿠텐트래블, 아고다 등 여행 플랫폼 할인 및 캐시백. 짐캐리, 렌터카, 크루즈, 와이파이 도시락 등 다양한 여행 관련 제휴 서비스 포함. 해외 여행자 보험, 뉴욕 여행 상품 할인, eSIM 체험권 포함."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "공항 서비스",
+    "content": "K-VAN 공항 밴 서비스(인천 10%, 김포 5%), LANE4 공항 이동 서비스 10% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "쇼핑 혜택",
+    "content": "신라·신세계면세점 블랙 멤버십 무료 제공. 트래블메이트, 쁘렝땅 백화점, 몽쥬약국, 파페치, 육스 등 쇼핑몰 할인, VIP 서비스 및 보험 혜택 포함. AIG 해외 직구 보험 최대 23만원 보상."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "골프 혜택",
+    "content": "전 세계 약 48개 골프장 그린피 50% 할인 및 LANE4 골프장 이동 서비스 10% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "생활 혜택",
+    "content": "내셔널지오그래픽 트래블러 매거진 20% 할인, 카업 자동차 케어 30% 할인, 승마 레슨 15% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Mastercard World",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드 회원에 한해 제공되며, 전월 실적 조건 없이 Mastercard 브랜드에서 제공. 카드 개별 서비스와 상이할 경우 카드 서비스가 우선 적용됨. 자세한 내용은 Mastercard 홈페이지 참고."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "공항 혜택",
+    "content": "인천, 김포, 김해국제공항 라운지 이용 시 동반 2인까지 30% 할인 (성인 요금 기준). 제1/2 여객터미널 및 국제선 스카이 허브, 마티나 라운지 이용 가능."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 객실 및 패키지 최대 40% 할인 또는 업그레이드, F&B 최대 10% 할인, 스파 최대 20% 할인. 고택호텔 우대 혜택 포함. 온라인 전용 해외 호텔 최대 25% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "여행 혜택",
+    "content": "카모아 렌터카 5% 할인, 하이파킹 지정 주차장 일 주차 20% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "골프 혜택",
+    "content": "사이판 월드리조트 골프 패키지 최대 40% 할인, 리프레쉬 골프 10% 할인 쿠폰 6매 제공 (회원가입 시 코드 입력 필요)."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "레스토랑 혜택",
+    "content": "카페 아티제 커피 1+1(월 1회, 연 6회), 백미당 커피 또는 아이스크림 무료(월 1회, 연 2회), 생어거스틴 등 외식 브랜드 5~20% 할인 또는 서비스 메뉴 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "쇼핑 혜택",
+    "content": "신라아이파크, 현대면세점 최대 15% 할인, 유니페어 5% 할인 및 슈케어 쿠폰 제공, 메종 레페토 5% 할인, 꽃집청년들 할인 코드 적용 시 최대 15% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "생활 혜택",
+    "content": "포브스코리아, 이코노미스트 등 정기 구독 50% 할인, 오픈갤러리 그림 렌탈 5만원 할인, 차량 세차 서비스 최대 10% 할인, 서프홀릭 서핑 강습료 5% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Platinum",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드 소지자에 한해 제공되며, 전월 실적 조건 없이 브랜드사(American Express)에서 제공. 카드 고유 서비스와 상이할 경우 카드 서비스가 우선 적용됨. 자세한 내용은 홈페이지 참고."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "공항 혜택",
+    "content": "인천, 김포, 김해국제공항 라운지 이용 시 동반 2인까지 성인 요금 기준 30% 할인. 스카이 허브, 마티나, 마티나 골드 라운지 포함."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 객실 및 패키지 최대 40% 할인 또는 업그레이드, F&B 최대 10% 할인, 스파 최대 10% 할인. 고택 호텔 우대 혜택 및 JW 메리어트 하노이 2박 이상 시 조식·웰컴드링크 제공 포함."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "여행 혜택",
+    "content": "카모아 렌터카 5% 할인, 하이파킹 지정 주차장 일 주차 20% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "골프 혜택",
+    "content": "사이판 월드리조트 골프 패키지 최대 40% 할인, 리프레쉬 골프 회원가입 시 10% 할인 쿠폰 6매 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "레스토랑 혜택",
+    "content": "카페 아티제 커피 1+1(월 1회, 연 6회), 백미당 커피 또는 아이스크림 무료(월 1회, 연 2회), 주요 외식 브랜드 5~20% 할인 또는 서비스 메뉴 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "쇼핑 혜택",
+    "content": "신라아이파크 면세점 5~10% 할인, 꽃집청년들 온라인 할인 코드 적용 시 관엽 5%, 화환 10% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "생활 혜택",
+    "content": "잡지 구독료 10% 할인(포브스코리아 등), 오픈갤러리 첫 이용 시 5만원 추가 할인, 차량 세차 서비스 5~10% 할인, 서프홀릭 서핑 강습료 5% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "American Express Selects",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드 보유 회원만 이용 가능. 브랜드사(American Express)에서 제공하며 카드 고유 서비스와 상이할 경우 카드 서비스 우선 적용. 전월 실적 조건 없음."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 F&B 5~10% 할인, 객실 5~50% 할인 또는 업그레이드, 스파 5~10% 할인. 마리나 베이 샌즈 호텔 엘리트 멤버십 3개월 제공. 로비 라운지 음료 월 1회, 연 4회 무료 제공 (법인 카드 한정)."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "여행 혜택",
+    "content": "마이리얼트립 최대 10% 할인, 트립닷컴 항공 10% 및 호텔 15% 할인, 클룩 100달러 이상 결제 시 30달러 할인 (인당 3회 한도), DB손해보험 해외 여행자보험 연 1회 최대 3일 무료 가입."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "해외 지원 서비스",
+    "content": "해외 의료, 여행, 공항 지원, 컨시어지 서비스 제공 (2025.07.10까지)"
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "공항 혜택",
+    "content": "K공항리무진 승차권 1+1 제공, 인천공항 제휴 카페 10% 할인, 경복궁면세점 인천공항점 사은품 제공, 현대면세점 인천공항점 Gold 멤버십 제공 및 결제 시 15% 추가 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "골프 혜택",
+    "content": "국내 골프장 예약 및 그린피 할인 서비스, 커피 4잔 구매 시 30% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "생활 혜택",
+    "content": "현대아울렛 무료 음료 1잔 제공, U Collection Dining 서비스 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "UnionPay Platinum",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드 보유 회원만 이용 가능. UnionPay Platinum 서비스와 카드별 서비스가 상이할 경우 카드 서비스가 우선 적용됨. 전월 실적 조건 없이 제공. 자세한 내용은 UnionPay 공식 홈페이지 참고."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Corporate",
+    "title": "여행 혜택",
+    "content": "오사카 e-pass, 팀랩 포레스트, 아트 아쿠아리움 할인 및 기념품 제공. Agoda, IHG, Expedia 등 온라인 호텔 예약 최대 20% 할인. MOVV, 케이케이데이, 트립쿠폰, 허츠렌터카, 그랩, 카타르항공 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Corporate",
+    "title": "쇼핑 혜택",
+    "content": "일본 약국·가전·면세점(돈키호테, 마츠모토 키요시, 빅카메라 등) 최대 17% 할인. 백화점·면세점 할인 쿠폰 및 온라인 명품몰(블루밍데일스, 디어프란시스 등) 할인. 태국 쇼핑몰에서 기프트카드 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Corporate",
+    "title": "SaaS 서비스 혜택",
+    "content": "Google Ads 60만원 크레딧, CustomGPT.ai $99 할인, Google Workspace 25% 할인, Digital Ocean 5% 할인 등 다양한 글로벌 SaaS 구독료 할인 혜택 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Corporate",
+    "title": "의료 및 헬스케어",
+    "content": "태국 내 병원(월드 메디컬, 비무트, 수쿰빗, BNH, 방콕 병원)에서 진료비 및 병실료 최대 47% 할인. Health Land 마사지 할인 포함."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Corporate",
+    "title": "식사 혜택",
+    "content": "LICPJI, Li-Ji, Vigor Kobo, 올드시추안, 아구안 등에서 식사 및 선물세트 할인 제공. TableCheck 예약 시 할인, 태국 주요 레스토랑 다수 5~10% 할인 및 무료 디저트/음료 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Visa Corporate",
+    "title": "이용 조건 및 유의사항",
+    "content": "국내외겸용 카드 보유 회원만 이용 가능. Visa Corporate 서비스와 개별 카드 서비스가 다를 경우 카드 서비스가 우선 적용. 전월 실적 조건 없이 브랜드사에서 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "공항 혜택",
+    "content": "인천, 김포, 김해국제공항 라운지 동반 2인까지 30% 할인. 인천공항 F&B 10~15% 할인, 김포공항 국제선 F&B 10% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 5~40% 할인 또는 업그레이드, F&B 5~10% 할인, 고택 호텔 할인, JW 메리어트 하노이 조식 및 웰컴 드링크 제공. 온라인 전용 호텔 최대 25% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "스파 혜택",
+    "content": "국내 특급호텔 스파 프로그램 할인 및 정규 스파 5~20% 할인 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "여행 혜택",
+    "content": "카모아 렌터카 5% 할인, 하이파킹 지정 주차장 20% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "골프 혜택",
+    "content": "사이판 월드리조트 골프 패키지 최대 40% 할인, 리프레쉬 골프 10% 할인 쿠폰 6매 제공, 주중 골프 부킹 대행 연 2회."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "레스토랑 혜택",
+    "content": "카페 아티제 커피 1+1(월 1회, 연 6회), 백미당 커피 또는 아이스크림 무료(월 1회, 연 2회), 외식 브랜드 5~20% 할인 또는 서비스 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "쇼핑 혜택",
+    "content": "신라·현대면세점 최대 20% 할인, 유니페어·레페토 5% 할인, 꽃집청년들 관엽 10%, 화환 15% 할인 등 다양한 쇼핑 할인 혜택 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "생활 혜택",
+    "content": "잡지 구독 50% 할인, 오픈갤러리 5만원 할인, 차량 세차 5~10% 할인, 서프홀릭 서핑 강습료 5% 할인 등 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex The Platinum",
+    "title": "이용 조건 및 유의사항",
+    "content": "The Platinum 등급 회원에게 전월 실적 조건 없이 제공. American Express에서 제공하며, 카드 고유 서비스와 상이할 경우 카드 서비스가 우선 적용됨. 홈페이지 참고 요망."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "공항 혜택",
+    "content": "인천/김포/김해국제공항 라운지 동반 2인까지 30% 할인. 인천공항 제1여객터미널 15% 할인, 제2터미널 10% 할인, 김포공항 국제선 일반구역 10% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "호텔 혜택",
+    "content": "국내 특급호텔 객실 및 패키지 5~40% 할인 또는 업그레이드, F&B 5~10% 할인. 고택호텔, 온라인 전용 호텔(JW 메리어트 하노이 등) 최대 25% 할인 및 조식, 웰컴드링크 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "스파 혜택",
+    "content": "국내 특급호텔 스파 정규 프로그램 할인 및 5~20% 할인 제공 (11개 호텔 대상)."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "여행 혜택",
+    "content": "카모아 렌터카 5% 할인, 하이파킹 지정 주차장 20% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "골프 혜택",
+    "content": "사이판 월드리조트 골프 패키지 최대 40% 할인, 주중 골프 부킹 대행 연 2회, 리프레쉬 골프 회원가입 시 10% 할인 쿠폰 6매 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "레스토랑 혜택",
+    "content": "카페 아티제 커피 1+1(월 1회, 연 6회), 백미당 커피 또는 아이스크림 무료(월 1회, 연 2회), 주요 외식 브랜드(생어거스틴 등) 5~20% 할인 또는 서비스 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "쇼핑 혜택",
+    "content": "신라아이파크·현대면세점 5~15% 할인, 신라면세점 온라인 최대 20%, 유니페어 5% 할인 및 슈케어 쿠폰, 메종 레페토 5% 할인, 꽃집청년들 10~15% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "생활 혜택",
+    "content": "잡지 구독(포브스코리아 등) 50% 할인, 오픈갤러리 첫 이용 5만원 할인, 차량 세차 5~10% 할인, 서프홀릭 서핑 강습료 5% 할인."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Amex Platinum Elite",
+    "title": "이용 조건 및 유의사항",
+    "content": "Amex에서 Platinum Elite 등급 회원 대상으로 전월 실적 조건 없이 제공. 카드 서비스와 상이할 경우 카드 서비스가 우선 적용. 홈페이지에서 상세 확인 필요."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "기본 혜택",
+    "content": "전월 50만원 이상 이용 시 국내외 가맹점에서 1.5% M포인트 적립 혜택이 제공됩니다. 신규 발급 시 다음 달까지는 실적 조건 없이 혜택이 적용됩니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "추가 혜택",
+    "content": "전월 100만원 이상 사용 시 온라인몰, 배달 앱, 편의점, 대중교통 업종에서 5% M포인트 적립. 업종별 월 1만 M포인트 적립 한도, 국내 가맹점 한정."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "연회비",
+    "content": "국내전용 및 해외겸용(Visa/Amex) 연회비는 총 80,000원이며, 가족카드는 20,000원입니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "연간 보너스 - 크레딧",
+    "content": "매년 1회 5만원 크레딧 제공. 호텔, 여행, 다이닝 사용처에서 사용 가능하거나 7만 M포인트로 교환 가능. 첫 해는 100만원 이상, 이후는 연 600만원 이상 사용 시 제공됩니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "우대 서비스 - M 긴급적립",
+    "content": "최대 50만 M포인트를 선지급받아 이후 최대 24개월간 상환. 월 100만원 이용 시 최대 52.8만 포인트 적립 가능."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "우대 서비스 - 공항 라운지",
+    "content": "인천국제공항 라운지를 연 2회 무료 이용할 수 있으며, THE LOUNGE 앱을 통해 이용권을 발급받아야 합니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "우대 서비스 - 발레파킹",
+    "content": "인천국제공항 발레파킹 서비스를 연 2회 무료 이용할 수 있습니다. 실물 카드 지참 필수이며, 주차비는 별도 정산입니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "우대 서비스 - 메탈 플레이트",
+    "content": "10만원 수수료 또는 10만 M포인트로 메탈 플레이트 신청 가능. 수작업 제작으로 약 1주 소요되며, 기본 카드와 유효기간 동일."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Copper",
+    "title": "M포인트 사용 안내",
+    "content": "M포인트는 1포인트=1원으로 일상 사용처, M몰, 자동차 구매에 사용 가능. 단, 교환 시 2/3원으로 환산되며 일부 항목은 적립 제외됨."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "기본 혜택",
+    "content": "전월 50만원 이상 이용 시 국내외 가맹점에서 1.5% M포인트 적립 혜택이 제공되며, 신규 발급 시 다음 달까지는 실적 조건 없이 혜택이 적용됩니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "추가 혜택",
+    "content": "전월 100만원 이상 사용 시 온라인몰, 백화점, 대형마트, 교육 업종에서 5% M포인트 적립. 업종별 월 1만 M포인트 적립 한도, 국내 가맹점 한정."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "연회비",
+    "content": "국내전용 및 해외겸용(Visa/Amex) 연회비는 총 80,000원이며, 가족카드는 20,000원입니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "연간 보너스 - 크레딧",
+    "content": "매년 1회 5만원 크레딧 제공. 호텔, 여행, 다이닝 사용처에서 사용 가능하거나 7만 M포인트로 교환 가능. 첫 해는 100만원 이상, 이후는 연 600만원 이상 사용 시 제공됩니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "우대 서비스 - M 긴급적립",
+    "content": "최대 50만 M포인트를 선지급받아 이후 최대 24개월간 상환. 월 100만원 이용 시 최대 52.8만 포인트 적립 가능."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "우대 서비스 - 공항 라운지",
+    "content": "전월 50만원 이상 시 인천국제공항의 스카이 허브 및 마티나 라운지를 연 2회 무료 이용할 수 있으며, THE LOUNGE 앱을 통해 이용권 발급이 필요합니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "우대 서비스 - 발레파킹",
+    "content": "인천국제공항 발레파킹 서비스를 연 2회 무료 이용할 수 있으며, 실물 카드 지참이 필수이고 주차 비용은 별도 정산됩니다."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "우대 서비스 - 메탈 플레이트",
+    "content": "10만원 수수료 또는 10만 M포인트로 메탈 플레이트 신청 가능. 수작업 제작으로 약 1주 소요되며, 기본 카드와 유효기간 동일."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Velvet",
+    "title": "M포인트 사용 안내",
+    "content": "M포인트는 1포인트=1원으로 일상 사용처, M몰, 자동차 구매에 사용 가능. 단, 교환 시 2/3원으로 환산되며 일부 항목은 적립 제외됨."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "기본 혜택",
+    "content": "전월 50만원 이상 시 국내외 가맹점 1.5% M포인트 적립. 신규 발급 시 다음 달까지 실적 조건 없이 혜택 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "추가 혜택",
+    "content": "전월 100만원 이상 시 온라인몰, 드럭스토어, 커피전문점, 대중교통 5% M포인트 적립 (월 1만 M포인트 한도). 일부 제약 조건 있음."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "연회비",
+    "content": "국내전용/해외겸용 연회비 80,000원 (기본 20,000원 + 제휴 60,000원). 가족카드는 20,000원."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "연간 보너스 - 크레딧",
+    "content": "호텔, 여행, 다이닝 영역에서 사용할 수 있는 5만원 크레딧 또는 7만 M포인트 제공. 첫 해는 100만원 이상, 이후는 연 600만원 이상 사용 시 제공."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "우대 서비스 - M 긴급적립",
+    "content": "최대 50만 M포인트 선지급, 이후 24개월 분할 상환. 사용처별로 실적 기준 적용."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "우대 서비스 - 공항 라운지",
+    "content": "THE LOUNGE 앱을 통해 인천공항 라운지 이용권 발급 가능. 연 2회 이용 (본인+가족 합산)."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "우대 서비스 - 발레파킹",
+    "content": "인천공항 발레파킹 서비스 연 2회 제공. 실물 카드 지참 필요. 주차 비용 별도."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "우대 서비스 - 메탈 플레이트",
+    "content": "10만원 수수료 또는 10만 M포인트로 신청 가능. 평균 1주 내외 소요. 기본 카드 해지 시 동시 해지."
+  },
+  {
+    "card_company": "현대카드",
+    "card_name": "Boutique - Satin",
+    "title": "M포인트 사용 안내",
+    "content": "일상 사용처, M몰, 자동차 구매 등에서 1포인트 = 1원으로 사용. 교환 시 2/3원으로 환산 적용."
+  }
+]
