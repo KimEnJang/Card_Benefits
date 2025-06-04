@@ -1,54 +1,67 @@
-
-import json
 import chromadb
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-# 1. 디스크 기반 ChromaDB 클라이언트 초기화
-client = chromadb.PersistentClient(path="./chroma_storage")
-collection = client.get_collection(name="card-benefits")
+def run_chatbot():
+    # 1. ChromaDB 불러오기
+    client = chromadb.PersistentClient(path="./chroma_storage")
+    collection = client.get_or_create_collection(name="card-benefits")
 
-# 2. 임베딩 모델 로딩
-embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+    # 2. 임베딩 모델
+    embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 
-# 3. KULLM 모델 및 토크나이저 로딩
-tokenizer = AutoTokenizer.from_pretrained("nlpai-lab/kullm3-7b")
-model = AutoModelForCausalLM.from_pretrained(
-    "nlpai-lab/kullm3-7b",
-    torch_dtype=torch.float16,
-    device_map="auto",
-    load_in_4bit=True
-)
+    # 3. LLM 로딩 (KULLM 5.8B, 4bit + GPU 또는 CPU 환경 자동 할당)
+    tokenizer = AutoTokenizer.from_pretrained("circulus/kullm-polyglot-5.8b-v2")
+    model = AutoModelForCausalLM.from_pretrained(
+        "circulus/kullm-polyglot-5.8b-v2",
+        torch_dtype=torch.float16,
+        device_map="auto",
+        load_in_4bit=True
+    )
 
-# 4. 챗봇 루프 시작
-print("카드 혜택 챗봇에 오신 것을 환영합니다! (종료하려면 'exit' 입력)")
-while True:
-    question = input("\n사용자 질문: ")
-    if question.strip().lower() in ["exit", "quit", "종료"]:
-        print("챗봇을 종료합니다.")
-        break
+    print("🧾 카드 혜택 Q&A 챗봇입니다. (종료하려면 'exit' 입력)")
 
-    # 질문 임베딩 후 유사 문서 검색
-    query_embedding = embedding_model.encode(question)
-    results = collection.query(query_embeddings=[query_embedding], n_results=5)
-    retrieved_docs = results["documents"][0]
-    context = "\n".join(retrieved_docs)
+    while True:
+        question = input("\n🙋 사용자 질문: ").strip()
+        if question.lower() in ["exit", "quit", "종료"]:
+            print("챗봇을 종료합니다.")
+            break
 
-    # 프롬프트 구성
-    prompt = f"""### 질문:
-{question}
+        # 4. 유사 문서 검색
+        query_embedding = embedding_model.encode(question, normalize_embeddings=True)
+        results = collection.query(query_embeddings=[query_embedding], n_results=3)
+        retrieved_docs = results["documents"][0] if results["documents"] else []
+        context = "\n".join(retrieved_docs) if retrieved_docs else ""
 
-### 카드 혜택 정보:
+        # 5. 프롬프트 구성 (자연스럽고 친절한 말투)
+        prompt = f"""당신은 카드 혜택 정보를 안내하는 챗봇입니다.
+제공된 카드 혜택 정보만 사용해서 사용자 질문에 답변해 주세요.
+정보가 없으면 "죄송합니다. 해당 혜택에 대한 정보는 찾을 수 없습니다."라고 말하세요.
+
+카드 혜택 정보:
 {context}
 
-### 답변:"""
+질문:
+{question}
 
-    # LLM 추론
-    inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
-    outputs = model.generate(**inputs, max_new_tokens=150, do_sample=True, top_p=0.9)
-    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+답변:"""
 
-    # 출력
-    print("\n🤖 챗봇 응답:")
-    print(response.split("### 답변:")[-1].strip())
+        # 6. 텍스트 생성
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=200,
+            temperature=0.8,
+            top_k=40,
+            top_p=0.95,
+            do_sample=True,
+            pad_token_id=tokenizer.eos_token_id
+        )
+        response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+        answer = response.split("답변:")[-1].strip()
+
+        print(f"\n🤖 챗봇 응답: {answer}")
+
+if __name__ == "__main__":
+    run_chatbot()
