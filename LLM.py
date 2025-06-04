@@ -11,14 +11,12 @@ def run_chatbot():
     # 2. 임베딩 모델
     embedding_model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 
-    # 3. LLM 로딩 (KULLM 5.8B, 4bit + GPU 또는 CPU 환경 자동 할당)
-    tokenizer = AutoTokenizer.from_pretrained("circulus/kullm-polyglot-5.8b-v2")
-    model = AutoModelForCausalLM.from_pretrained(
-        "circulus/kullm-polyglot-5.8b-v2",
-        torch_dtype=torch.float16,
-        device_map="auto",
-        load_in_4bit=True
-    )
+    # 3. 경량 LLM
+    model_id = "skt/kogpt2-base-v2"
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(model_id)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
 
     print("🧾 카드 혜택 Q&A 챗봇입니다. (종료하려면 'exit' 입력)")
 
@@ -32,23 +30,31 @@ def run_chatbot():
         query_embedding = embedding_model.encode(question, normalize_embeddings=True)
         results = collection.query(query_embeddings=[query_embedding], n_results=3)
         retrieved_docs = results["documents"][0] if results["documents"] else []
-        context = "\n".join(retrieved_docs) if retrieved_docs else ""
+        context = "\n".join(retrieved_docs).strip()
 
-        # 5. 프롬프트 구성 (자연스럽고 친절한 말투)
-        prompt = f"""당신은 카드 혜택 정보를 안내하는 챗봇입니다.
-제공된 카드 혜택 정보만 사용해서 사용자 질문에 답변해 주세요.
-정보가 없으면 "죄송합니다. 해당 혜택에 대한 정보는 찾을 수 없습니다."라고 말하세요.
+        # 🔐 5. context가 없으면 답변 금지
+        if not context or len(context) < 20:
+            print("\n🤖 챗봇 응답: 죄송합니다. 해당 혜택에 대한 정보는 찾을 수 없습니다.")
+            continue
 
-카드 혜택 정보:
+        # ✅ 6. 프롬프트 구성 (지시 강화)
+        prompt = f"""
+당신은 카드 혜택 정보를 안내하는 전문 챗봇입니다.
+아래 제공된 카드 혜택 정보만을 근거로 답변해야 하며, 다른 지식이나 추측을 추가하지 마세요.
+만약 아래 정보에 답이 없으면 "죄송합니다. 해당 혜택에 대한 정보는 찾을 수 없습니다."라고 답하세요.
+의미 없는 반복 문장, 같은 문장 구조 반복, 모호한 정의는 피하세요.
+
+[카드 혜택 정보]
 {context}
 
-질문:
+[질문]
 {question}
 
-답변:"""
+[답변]
+"""
 
-        # 6. 텍스트 생성
-        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        # 7. 텍스트 생성
+        inputs = tokenizer(prompt, return_tensors="pt").to(device)
         outputs = model.generate(
             **inputs,
             max_new_tokens=200,
@@ -59,7 +65,7 @@ def run_chatbot():
             pad_token_id=tokenizer.eos_token_id
         )
         response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        answer = response.split("답변:")[-1].strip()
+        answer = response.split("[답변]")[-1].strip()
 
         print(f"\n🤖 챗봇 응답: {answer}")
 
