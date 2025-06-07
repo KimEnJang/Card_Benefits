@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 def run_chatbot():
-    # 1. ChromaDB 불러오기
+    # 1. ChromaDB 로딩
     client = chromadb.PersistentClient(path="./chroma_storage")
     collection = client.get_or_create_collection(name="card-benefits")
 
@@ -18,50 +18,84 @@ def run_chatbot():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
-    print("🧾 카드 혜택 Q&A 챗봇입니다. (종료하려면 'exit' 입력)")
+    print("🧾 카드 혜택 Q&A 챗봇입니다. 종료하려면 'exit' 입력")
 
+    # 4. 문서 및 임베딩 불러오기
+    results_all = collection.get(include=["documents", "embeddings"])
+    docs = results_all["documents"]
+    embeddings = results_all["embeddings"]
+
+    # 5. 검색 함수 정의
+    def search_context(query, top_k=3):
+        query_emb = embedding_model.encode(query).tolist()
+
+        def cosine_sim(a, b):
+            dot = sum(x * y for x, y in zip(a, b))
+            norm_a = sum(x**2 for x in a) ** 0.5
+            norm_b = sum(x**2 for x in b) ** 0.5
+            return dot / (norm_a * norm_b + 1e-8)
+
+        scores = [cosine_sim(query_emb, emb) for emb in embeddings]
+        top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
+
+        # title 키워드 필터링
+        title_keywords = ["기본 혜택", "추가 혜택", "우대 서비스"]
+        filtered = []
+        for i in top_indices:
+            doc = docs[i]
+            if any(k in query and k in doc for k in title_keywords):
+                filtered.append(doc)
+            if len(filtered) >= top_k:
+                break
+
+        # fallback: 유사도 상위 top_k
+        if not filtered:
+            filtered = [docs[i] for i in top_indices[:top_k]]
+
+        return "\n".join(filtered).strip()
+
+    # 6. 챗봇 실행 루프
     while True:
         question = input("\n🙋 사용자 질문: ").strip()
         if question.lower() in ["exit", "quit", "종료"]:
             print("챗봇을 종료합니다.")
             break
 
-        # 4. 유사 문서 검색
-        query_embedding = embedding_model.encode(question, normalize_embeddings=True)
-        results = collection.query(query_embeddings=[query_embedding], n_results=3)
-        retrieved_docs = results["documents"][0] if results["documents"] else []
-        context = "\n".join(retrieved_docs).strip()
+        context = search_context(question)
 
-        # 🔐 5. context가 없으면 답변 금지
+        # context 없으면 중단
         if not context or len(context) < 20:
             print("\n🤖 챗봇 응답: 죄송합니다. 해당 혜택에 대한 정보는 찾을 수 없습니다.")
             continue
 
-        # ✅ 6. 프롬프트 구성 (지시 강화)
-        prompt = f"""
-당신은 카드 혜택 정보를 안내하는 전문 챗봇입니다.
-아래 제공된 카드 혜택 정보만을 근거로 답변해야 하며, 다른 지식이나 추측을 추가하지 마세요.
-만약 아래 정보에 답이 없으면 "죄송합니다. 해당 혜택에 대한 정보는 찾을 수 없습니다."라고 답하세요.
-의미 없는 반복 문장, 같은 문장 구조 반복, 모호한 정의는 피하세요.
+        # 7. 프롬프트 구성
+        prompt = f"""당신은 카드 혜택을 안내하는 상담 챗봇입니다.
 
 [카드 혜택 정보]
 {context}
 
-[질문]
-{question}
+[사용자 질문]
+"{question}"
+
+[답변 규칙]
+- 반드시 위 카드 혜택 정보만을 기반으로 답변하세요.
+- 질문과 관련된 혜택 제목(예: '기본 혜택')에 해당하는 정보만 사용하세요.
+- 관련 없는 정보, 반복 문장, 외부 지식은 절대 포함하지 마세요.
+- 명확하고 자연스럽게 한두 문장으로 답변을 마무리하세요.
+- 정보가 없으면 "죄송합니다. 해당 혜택에 대한 정보는 확인되지 않았습니다."라고 답변하세요.
 
 [답변]
 """
 
-        # 7. 텍스트 생성
         inputs = tokenizer(prompt, return_tensors="pt").to(device)
         outputs = model.generate(
             **inputs,
-            max_new_tokens=200,
-            temperature=0.8,
+            max_new_tokens=150,
+            temperature=0.7,
             top_k=40,
-            top_p=0.95,
-            do_sample=True,
+            top_p=0.9,
+            repetition_penalty=2.0,
+            do_sample=False,
             pad_token_id=tokenizer.eos_token_id
         )
         response = tokenizer.decode(outputs[0], skip_special_tokens=True)
